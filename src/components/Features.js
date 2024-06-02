@@ -19,7 +19,7 @@ const FeatureProduct = ({ imgSrc, title, desc }) => {
 
 const Features = () => {
   return (
-    <section className="container mx-auto px-5 md:px-16" id="features">
+    <section className="container mx-auto px-5 md:px-16 mt-20 sm:mt-10 md:mt-20" id="features">
       <span className="service-name text-center">WHATS THE FUNCTION</span>
       <h2 className="title text-center">Meet the feature of product</h2>
 
