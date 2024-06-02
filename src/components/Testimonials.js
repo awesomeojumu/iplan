@@ -6,33 +6,21 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ButtonGroup from "./ButtonGroup";
 
-const Card = ({ star, title, imgSrc }) => {
+const Card = ({ star, title, imgSrc, message, author, authorLink }) => {
   return (
     <div className="mx-2 flex flex-col gap-4 select-none cursor-pointer border border-[#4e4e4e31] p-10 rounded-lg hover:shadow-xl transition-all">
       <div className="text-purple-900">
-        <StarRoundedIcon />
-        <StarRoundedIcon />
-        <StarRoundedIcon />
-        <StarRoundedIcon />
-        {star}
+      {star}{star}{star}{star}{star && <span>{star}</span>}
       </div>
       <h2 className="text-lg font-semibold mb-2">{title}</h2>
-      <p className="leading-loose">
-        Get working experience to work with this amazing team & in future want
-        to work together for bright future projects and also make deposit to
-        freelancer.
-      </p>
+      <p className="leading-loose">{message}</p>
       <div className="flex items-center gap-4 mt-5">
         <Image src={imgSrc} width={50} height={50} alt="testimonials" />
         <div>
-          <h3 className="font-semibold">Naseem Khan</h3>
-          <Link
-            href="https://github.com/NaseemKhan005"
-            target="_blank"
-            className="text-purple-900 font-[500]"
-          >
-            @naseemkhan
-          </Link>
+          <h3 className="font-semibold">{author}</h3>
+          <a href={authorLink} target="_blank" rel="noopener noreferrer" className="text-purple-900 font-[500]">
+            @{author}
+          </a>
         </div>
       </div>
     </div>
@@ -41,40 +29,50 @@ const Card = ({ star, title, imgSrc }) => {
 
 const Testimonials = () => {
   return (
-    <section
-      className="relative container mx-auto px-5 md:px-16 flex flex-col gap-5"
-      id="testimonial"
-    >
+    <section className="relative container mx-auto px-5 md:px-16 flex flex-col gap-5" id="testimonial">
       <div>
         <span className="service-name text-center ">TESTIMONIAL</span>
-        <h2 className="title text-center ">Meet Client Satisfaction</h2>
+        <h2 className="text-2xl font-semibold text-center ">Meet Client Satisfaction</h2>
       </div>
       <Carousel {...carouselParams}>
         <div>
           <Card
-            star={<StarHalfRoundedIcon />}
-            title="Modern look & trending design"
+           star={<StarHalfRoundedIcon />}
+            title="111 Modern look & trending design"
             imgSrc="/testimonials/1.png"
+            message="Custom message for testimonial 1."
+            author="John Doe"
+            authorLink="https://example.com/john"
           />
         </div>
         <div>
           <Card
-            title="Layout and organized layers"
+           star={<StarHalfRoundedIcon />}
+            title="2222 Layout and organized layers"
             imgSrc="/testimonials/2.png"
+            message="Custom message for testimonial 2."
+            author="Jane Doe"
+            authorLink="https://example.com/jane"
           />
         </div>
         <div>
           <Card
-            star={<StarRoundedIcon />}
-            title="Design Quality & performance"
+           star={<StarHalfRoundedIcon />}
+            title="333 Design Quality & performance"
             imgSrc="/testimonials/3.png"
+            message="Custom message for testimonial 3."
+            author="Alice Smith"
+            authorLink="https://example.com/alice"
           />
         </div>
         <div>
           <Card
-            star={<StarHalfRoundedIcon />}
-            title="Layout and organized layers"
+           star={<StarHalfRoundedIcon />}
+            title="444Layout and organized layers"
             imgSrc="/testimonials/4.png"
+            message="Custom message for testimonial 4."
+            author="Bob Johnson"
+            authorLink="https://example.com/bob"
           />
         </div>
       </Carousel>
@@ -82,20 +80,21 @@ const Testimonials = () => {
   );
 };
 
+
 export default Testimonials;
 
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
-    items: 4,
+    items: 6,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 4,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 3,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -123,5 +122,5 @@ const carouselParams = {
   responsive: responsive,
   showDots: false,
   sliderClass: "",
-  slidesToSlide: 1,
+  slidesToSlide: 0.5,
 };
