@@ -1,0 +1,72 @@
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body styles */
+body {
+  overflow-x: hidden;
+}
+
+/* HTML scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom class for service name */
+.service-name {
+  @apply text-blue-800 uppercase block font-semibold text-sm tracking-widest; /* Change color to dark blue */
+}
+
+/* Custom class for titles */
+.title {
+  @apply capitalize text-2xl sm:text-3xl font-semibold my-3;
+}
+
+/* Custom class for rotating elements */
+.rotate {
+  transform: rotateX(180deg);
+}
+
+/* Hover effect for team card */
+.team-card:hover h2,
+.team-card:hover p { /* Adjusted selector */
+  color: #2c5282; /* Change color to dark blue */
+}
+
+/* Hover effect for team card icons */
+.team-card:hover .icons {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Placeholder color for input fields */
+input::placeholder {
+  color: #2c5282; /* Change color to dark blue */
+}
+
+/* Keyframes for play pulse animation */
+@keyframes playPluse {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(-50%);
+    opacity: 1;
+    width: 4rem;
+    height: 4rem;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(-50%);
+    opacity: 0;
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+/* Animation for play button */
+.playButton {
+  animation: playPluse 1.5s ease-out infinite;
+}
+
+/* Hide scrollbar */
+.scrollbar::-webkit-scrollbar {
+  height: 0;
+}
