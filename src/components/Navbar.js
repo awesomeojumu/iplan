@@ -109,16 +109,6 @@ const Navbar = () => {
           <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-blue-900 border-blue-900 hover:border-blue-900 hover:bg-blue-900 hover:text-white rounded-full">
             <Link href={"https://wa.me/2347086341817?text=Hello%20iPlan%20team%2C%0A%0AI%20am%20interested%20in%20one%20of%20your%20services.%20Can%20we%20schedule%20a%20call%20to%20discuss%20further%3F"}>Get Started</Link>
           </button>
-          {/* <button>
-            {theme === "dark" ? (
-              <LightModeRoundedIcon
-                onClick={() => setTheme("light")}
-                className="text-white"
-              />
-            ) : (
-              <DarkModeOutlinedIcon onClick={() => setTheme("dark")} />
-            )}
-          </button>
           <button
             aria-label="menu"
             className={`${
@@ -127,7 +117,7 @@ const Navbar = () => {
             onClick={() => setToggleMenu(true)}
           >
             <MenuIcon />
-          </button> */}
+          </button>
         </div>
       </div>
     </div>
