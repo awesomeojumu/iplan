@@ -17,7 +17,7 @@ const Footer = () => {
             <h4 className="max-w-xs mt-4 text-l font-semibold">
                 Exellence or Nothing
             </h4>
-            <div className="flex mt-8 space-x-6">
+            {/* <div className="flex mt-8 space-x-6">
               <Link
                 href="https://www.facebook.com/profile.php?id=100017192357822&sk"
                 target="_blank"
@@ -42,7 +42,7 @@ const Footer = () => {
               >
                 <InstagramIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all cursor-pointer text-xl" />
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4">
@@ -50,17 +50,10 @@ const Footer = () => {
               <p className="font-medium">Company</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm">
                 <Link
-                  href="/"
+                  href="/#"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  iPlan Resume
-                </Link>
-
-                <Link
-                  href="/business"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Meet the Team
+                  Company Review
                 </Link>
               </nav>
             </div>
@@ -71,13 +64,14 @@ const Footer = () => {
                   href="/resume"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  iPlan Business
+                  iPlan Resume
                 </Link>
+
                 <Link
-                  href="/"
+                  href="/business"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Company Review
+                  iPlan Business
                 </Link>
               </nav>
             </div>
