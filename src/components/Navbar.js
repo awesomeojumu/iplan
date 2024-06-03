@@ -61,7 +61,7 @@ const Navbar = () => {
               <CloseOutlinedIcon />
             </button>
             
-            {["/", "/features", "/pricing", "/testimonials"].map(
+            {["/", "/resume", "/business", "/contacts"].map(
               (path, index) => (
                 <li
                   key={index}
@@ -106,8 +106,8 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-4 md:gap-2 lg:gap-4">
-          <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-blue-900 border-blue-900 hover:border-purple-900 hover:bg-purple-900 hover:text-white rounded-full">
-            <Link href={"/pricing"}>Get Started</Link>
+          <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-blue-900 border-blue-900 hover:border-blue-900 hover:bg-blue-900 hover:text-white rounded-full">
+            <Link href={"https://wa.me/2347086341817?text=Hello%20iPlan%20team%2C%0A%0AI%20am%20interested%20in%20one%20of%20your%20services.%20Can%20we%20schedule%20a%20call%20to%20discuss%20further%3F"}>Get Started</Link>
           </button>
           {/* <button>
             {theme === "dark" ? (

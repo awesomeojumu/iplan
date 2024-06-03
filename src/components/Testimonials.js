@@ -9,7 +9,7 @@ import ButtonGroup from "./ButtonGroup";
 const Card = ({ star, title, imgSrc, message, author, authorLink }) => {
   return (
     <div className="mx-2 flex flex-col gap-4 select-none cursor-pointer border border-[#4e4e4e31] p-10 rounded-lg hover:shadow-xl transition-all">
-      <div className="text-purple-900">
+      <div className="text-blue-900">
       {star}{star}{star}{star}{star && <span>{star}</span>}
       </div>
       <h2 className="text-lg font-semibold mb-2">{title}</h2>
@@ -18,7 +18,7 @@ const Card = ({ star, title, imgSrc, message, author, authorLink }) => {
         <Image src={imgSrc} width={50} height={50} alt="testimonials" />
         <div>
           <h3 className="font-semibold">{author}</h3>
-          <a href={authorLink} target="_blank" rel="noopener noreferrer" className="text-purple-900 font-[500]">
+          <a href={authorLink} target="_blank" rel="noopener noreferrer" className="text-blue-900 font-[500]">
             @{author}
           </a>
         </div>

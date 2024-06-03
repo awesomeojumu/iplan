@@ -1,5 +1,3 @@
-"use client";
-
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -14,36 +12,35 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <Link href={"/"} className="text-3xl">
-              <span className="text-purple-900">N</span>aseem.
+                <b><span className="text-blue-900">iP</span>lan.</b>
             </Link>
-            <p className="max-w-xs mt-4 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-              accusantium.
-            </p>
+            <h4 className="max-w-xs mt-4 text-l font-semibold">
+                Exellence or Nothing
+            </h4>
             <div className="flex mt-8 space-x-6">
               <Link
                 href="https://www.facebook.com/profile.php?id=100017192357822&sk"
                 target="_blank"
               >
-                <FacebookOutlinedIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all" />
+                <FacebookOutlinedIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all cursor-pointer text-xl" />
               </Link>
               <Link href="https://github.com/NaseemKhan005" target="_blank">
-                <GitHubIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all" />
+                <GitHubIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all cursor-pointer text-xl" />
               </Link>
               <Link
                 href="https://www.linkedin.com/in/naseem-khan-275275258/"
                 target="_blank"
               >
-                <LinkedInIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all" />
+                <LinkedInIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all cursor-pointer text-xl" />
               </Link>
               <Link href="https://twitter.com/NaseemK69128903" target="_blank">
-                <TwitterIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all" />
+                <TwitterIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all cursor-pointer text-xl" />
               </Link>
               <Link
                 href="https://www.instagram.com/naseem_khan005/"
                 target="_blank"
               >
-                <InstagramIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all" />
+                <InstagramIcon className="hover:text-purple-900 hover:-translate-y-1 transition-all cursor-pointer text-xl" />
               </Link>
             </div>
           </div>
@@ -56,36 +53,25 @@ const Footer = () => {
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  About
+                  iPlan Resume
                 </Link>
+
                 <Link
-                  href="/"
+                  href="/business"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
                   Meet the Team
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  History
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Careers
                 </Link>
               </nav>
             </div>
             <div>
               <p className="font-medium">Services</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm ">
-                <Link
-                  href="/"
+              <Link
+                  href="/resume"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Coaching
+                  iPlan Business
                 </Link>
                 <Link
                   href="/"
@@ -93,81 +79,39 @@ const Footer = () => {
                 >
                   Company Review
                 </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Accounts Review
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  HR Consulting
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  SEO Optimisation
-                </Link>
               </nav>
             </div>
             <div>
               <p className="font-medium">Helpful Links</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm ">
                 <Link
-                  href="/"
+                  href="/ats"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Contact
+                  ATS-Friendly Resume
                 </Link>
-                <Link
-                  href="/"
+                {/* <Link
+                  href="/policy"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  FAQs
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Live Chat
-                </Link>
+                  Privacy Policy
+                </Link> */}
               </nav>
             </div>
             <div>
               <p className="font-medium">Legal</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm ">
                 <Link
-                  href="/"
+                  href="/privacy"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
                   Privacy Policy
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Terms &amp; Conditions
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Returns Policy
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Accessibility
                 </Link>
               </nav>
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs">© 2022 Naseem Khan - All rights reserved</p>
+        <p className="mt-8 text-xs">© 2024 iPlan Solutions - All rights reserved</p>
       </div>
     </footer>
   );
