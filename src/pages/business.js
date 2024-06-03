@@ -25,10 +25,10 @@ export default function BusinessPage() {
               <div className="flex-1 relative w-full">
                 <div className="md:before:w-full md:before:h-full md:before:absolute md:before:-bottom-24 lg:before:-bottom-20 xl:before:-right-5 lg:before:-right-12 md:before:-right-16 md:before:bg-right-bottom md:before:bg-contain md:before:bg-no-repeat before:-z-50 before:bg-none md:before:bg-[url('/videobg.png')]">
                   <Image
-                    src={"/features/core-features.png"}
+                    src={"/businesspage.png"}
                     width={300}
                     height={300}
-                    alt="core features"
+                    alt="business page banner"
                     className="object-cover w-full md:w-[90%] xl:w-4/5"
                   />
                 </div>
@@ -64,7 +64,7 @@ export default function BusinessPage() {
                     Our Process
                   </h2>
                   <ol>
-                    <li><FontAwesomeIcon icon={faArrowAltCircleRight} className="mr-2 text-green-500" />faStar<strong>Initial Consultation:</strong> Understand your business needs and goals.</li>
+                    <li><FontAwesomeIcon icon={faArrowAltCircleRight} className="mr-2 text-green-500" /><strong>Initial Consultation:</strong> Understand your business needs and goals.</li>
                     <li><FontAwesomeIcon icon={faArrowAltCircleRight} className="mr-2 text-green-500" /><strong>Research & Analysis:</strong> Conduct thorough market research and financial analysis.</li>
                     <li><FontAwesomeIcon icon={faArrowAltCircleRight} className="mr-2 text-green-500" /><strong>Strategy Development:</strong> Formulate tailored business strategies and plans.</li>
                     <li><FontAwesomeIcon icon={faArrowAltCircleRight} className="mr-2 text-green-500" /><strong>Ongoing Support:</strong> Provide continuous support and updates to refine strategies.</li>

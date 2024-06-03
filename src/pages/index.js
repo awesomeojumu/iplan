@@ -51,16 +51,12 @@ export default function Home() {
             <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
               <div className="relative w-full flex-1">
                 <Image
-                  src={"/videobanner.png"}
+                  src={"/home-23.png"}
                   width={300}
                   height={300}
-                  alt="video banner"
+                  alt="banner"
                   className="object-cover w-full"
                 />
-                <button className="w-32 h-32 absolute top-2/2 left-2/2 -translate-x-2/2 -translate-y-2/2">
-                  <Link href={"https://youtu.be/aVNa8Dka5MA"}>
-                  </Link>
-                </button>
               </div>
               <div className="flex gap-5 md:gap-10 flex-col flex-1">
                 <div className="flex flex-col gap-4">
@@ -109,7 +105,7 @@ export default function Home() {
             <div className="flex-1 relative w-full">
               <div className="md:before:w-full md:before:h-full md:before:absolute md:before:-bottom-24 lg:before:-bottom-20 xl:before:-right-5 lg:before:-right-12 md:before:-right-16 md:before:bg-right-bottom md:before:bg-contain md:before:bg-no-repeat before:-z-50 before:bg-none md:before:bg-[url('/videobg.png')]">
                 <Image
-                  src={"/features/core-features.png"}
+                  src={"/home-bd.png"}
                   width={300}
                   height={300}
                   alt="core features"
@@ -146,10 +142,10 @@ export default function Home() {
             <div className="flex-1 relative w-full">
               <div className="md:before:w-full md:before:h-full md:before:absolute md:before:-bottom-24 lg:before:-bottom-20 xl:before:-right-5 lg:before:-right-12 md:before:-right-16 md:before:bg-right-bottom md:before:bg-contain md:before:bg-no-repeat before:-z-50 before:bg-none md:before:bg-[url('/videobg.png')]">
                 <Image
-                  src={"/features/core-features.png"}
+                  src={"/home-cv.png"}
                   width={400}
                   height={400}
-                  alt="core features"
+                  alt="Smiling Lady"
                   className="object-cover w-full md:w-[90%] xl:w-4/5"
                 />
               </div>
