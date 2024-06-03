@@ -29,7 +29,7 @@ const Card = ({ star, title, imgSrc, message, author, authorLink }) => {
 
 const Testimonials = () => {
   return (
-    <section className="relative container mx-auto px-2 md:px-10 flex flex-col gap-2" id="testimonial">
+    <section className="relative container mx-auto px-2 md:px-10 flex flex-col gap-5" id="testimonial">
       <div>
         <span className="service-name text-center ">TESTIMONIAL</span>
         <h2 className="text-2xl font-semibold text-center ">Meet Client Satisfaction</h2>
