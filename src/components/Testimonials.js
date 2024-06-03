@@ -8,7 +8,7 @@ import ButtonGroup from "./ButtonGroup";
 
 const Card = ({ star, title, imgSrc, message, author, authorLink }) => {
   return (
-    <div className="mx-2 flex flex-col gap-4 select-none cursor-pointer border border-[#4e4e4e31] p-10 rounded-lg hover:shadow-xl transition-all">
+    <div className="mx-2 flex flex-col gap-4 select-none cursor-pointer border border-[#4e4e4e31] p-5 rounded-lg hover:shadow-xl transition-all">
       <div className="text-blue-900">
       {star}{star}{star}{star}{star && <span>{star}</span>}
       </div>
@@ -29,7 +29,7 @@ const Card = ({ star, title, imgSrc, message, author, authorLink }) => {
 
 const Testimonials = () => {
   return (
-    <section className="relative container mx-auto px-5 md:px-16 flex flex-col gap-5" id="testimonial">
+    <section className="relative container mx-auto px-2 md:px-10 flex flex-col gap-2" id="testimonial">
       <div>
         <span className="service-name text-center ">TESTIMONIAL</span>
         <h2 className="text-2xl font-semibold text-center ">Meet Client Satisfaction</h2>
@@ -86,7 +86,7 @@ export default Testimonials;
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
-    items: 6,
+    items: 5,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
