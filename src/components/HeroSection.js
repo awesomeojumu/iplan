@@ -19,11 +19,6 @@ const HeroSection = () => {
         <p className="text-lg leading-normal my-4 md:my-2">
             Providing Professional Resume Writing and Comprehensive Business Planning Services to Empower Your Career and Business Success.
         </p>
-        <button className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-blue-900 hover:border-blue-900 hover:bg-transparent hover:text-blue-900 rounded-full">
-          <Link href="#" target="_blank">
-            Explore
-          </Link>
-        </button>
       </div>
       <div className="w-full relative">
         <div className="before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-[url('/herobg1.png')] before:bg-left-bottom before:bg-contain before:bg-no-repeat before:-z-50 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-[url('/herobg2.png')] after:bg-right after:bg-contain after:bg-no-repeat after:-z-50">
