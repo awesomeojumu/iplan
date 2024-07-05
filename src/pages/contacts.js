@@ -27,7 +27,7 @@ export default function ContactsPage() {
                 <h2 class="text-2xl font-semibold mb-4">Call Us</h2>
                 <p class="mb-4 flex items-center">
                   <FontAwesomeIcon icon={faPhone} className="mr-2 text-blue-900" />
-                  <a href="tel:+2348135743324" class="hover:underline text-decoration-none">+234 813 574 3324</a>
+                  <a href="tel:+234 708 634 1817" class="hover:underline text-decoration-none">+234 708 634 1817</a>
                 </p>
 
               </div>

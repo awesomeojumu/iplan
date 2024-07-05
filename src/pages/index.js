@@ -40,9 +40,6 @@ export default function Home() {
             <p className="text-lg">
                 iPlan Solutions combines expertise in resume writing and business planning to help individuals and businesses achieve their goals. Whether you’re a job seeker needing a standout resume or a business looking for strategic guidance, we offer tailored solutions to meet your needs.
             </p>
-            {/* <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-blue-900 hover:border-blue-900 hover:bg-blue-900 hover:shadow-blue-900 hover:shadow-2xl rounded-full">
-              Explore
-            </button> */}
           </div>
         </section>
 
