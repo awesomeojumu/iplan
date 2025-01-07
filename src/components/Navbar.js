@@ -61,7 +61,7 @@ const Navbar = () => {
               <CloseOutlinedIcon />
             </button>
             
-            {["/", "/resume", "/business", "/contacts"].map(
+            {["/", "/resume", "/business", "/contacts", "/masterclass",].map(
               (path, index) => (
                 <li
                   key={index}
