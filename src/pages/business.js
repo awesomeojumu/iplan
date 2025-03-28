@@ -14,7 +14,7 @@ export default function BusinessPage() {
           <section className="container mx-auto px-7 md:px-20 flex flex-col lg:flex-row items-center lg:gap-20 gap-14">
             <div className="flex flex-col gap-2 flex-1">
               <span className="text-blue-900 uppercase block font-semibold tracking-widest">
-                <FontAwesomeIcon icon={faBriefcase} className="mr-2 text-blue-900" /> iPlan Business Development
+                <FontAwesomeIcon icon={faBriefcase} className="mr-2 text-blue-900" /> iPlan Business
               </span>
               <h2 className=" capitalize text-2xl md:text-4xl xl:text-5xl font-bold my-3">
                   Welcome to iPlan Business

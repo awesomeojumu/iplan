@@ -14,7 +14,7 @@ export default function MasterclassPage() {
           <section className="container mx-auto px-7 md:px-20 flex flex-col lg:flex-row items-center lg:gap-20 gap-14">
             <div className="flex flex-col gap-1 flex-1">
               <span className="text-blue-900 uppercase block font-semibold tracking-widest">
-                <FontAwesomeIcon icon={faBriefcase} className="mr-2 text-blue-900" /> iPlan Solution Masterclass
+                <FontAwesomeIcon icon={faBriefcase} className="mr-2 text-blue-900" /> iPlan Masterclass
               </span>
               <h4 className=" capitalize text-2xl md:text-3xl xl:text-3xl font-bold my-3">
                  iPlan Virtual Masterclass: Unlock the Secrets to a Standout Resume
