@@ -11,9 +11,14 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <Link href={"/"} className="text-3xl">
-                <b><span className="text-blue-900">iP</span>lan.</b>
-            </Link>
+            <Link href={"/"}>
+                      <h2 className="text-3xl cursor-pointer">
+                        <b>
+                          <span className="text-blue-900">iP</span>
+                          lan
+                          <span className="text-red-900">exi.</span></b>
+                      </h2>
+                    </Link>
             <h4 className="max-w-xs mt-4 text-l font-semibold">
                 Exellence or Nothing
             </h4>
