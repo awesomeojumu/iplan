@@ -25,6 +25,29 @@ export default function MasterclassPage() {
 
             <section className="container mx-auto px-7 md:px-20 flex flex-col lg:flex-row items-center lg:gap-10 gap-10">
                 <div className="flex flex-col gap-1 flex-1">
+
+                <h4 className="capitalize text-2xl md:text-2xl xl:text-2xl font-bold my-3">
+                    How did we get here?
+                  </h4>
+                  <p>
+                  In 2018, I was job hunting and needed to create my first CV, but I was low on funds. I didn’t have money to buy airtime, so I thought, "Why not get a job?" I went to a cyber café and spent hours working on my CV, crafting it from scratch. While I was focused on the design, someone noticed my work and asked if I could create one for them. I quoted 3,000 Naira, but they never showed up to collect the CV. Despite that, it sparked an idea in me—why not offer CV writing as a service?
+                  </p>
+
+                  <p>
+                  I reached out to a friend to help me create a flyer, and I started offering my services for 2,000 Naira. This was in 2018, and by the end of that year, I had already learned a lot about tailoring CVs. Over time, as I gained more experience, my pricing increased. By the end of 2019, I was charging 3,500 Naira. By the end of 2020, it was 5,000 Naira, and by the end of 2021, it was 10,000 Naira. As I continued to improve my skills, my rates kept growing.
+                  </p>
+
+                  <p>
+                    By the end of 2022, my pricing had reached 20,000 Naira. In 2023, I was charging 25,000 to 30,000 Naira for Nigerian clients and 40,000 Naira for international clients. During this time, I received the highest amount of positive feedback and recommendations, which confirmed that my work had made a real impact on others.
+                  </p>
+
+                  <p>
+                    Now, in 2025, after years of refining my skills and building my reputation, I’m excited to share my knowledge with others in my resume masterclass. I want to teach people how to stand out with their CVs and unlock their career potential.
+                  </p>
+
+                  <p>
+                    I will be sharing the tips, the tools, the hacks, dos and don’ts, exploring with AI tools, using Chatgpt, understand the prompts engineering, testing and growths.
+                  </p>
                   
                   <h4 className="capitalize text-2xl md:text-2xl xl:text-2xl font-bold my-3">
                     What You’ll Learn: 

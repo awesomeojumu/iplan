@@ -40,7 +40,10 @@ const Navbar = () => {
       <div className="container px-5 md:px-16 flex items-center justify-between mx-auto">
         <Link href={"/"}>
           <h2 className="text-3xl cursor-pointer">
-            <b><span className="text-blue-900">iP</span>lan.</b>
+            <b>
+              <span className="text-blue-900">iP</span>
+              lan.
+              <span className="text-red-900">exi</span></b>
           </h2>
         </Link>
 
@@ -61,7 +64,7 @@ const Navbar = () => {
               <CloseOutlinedIcon />
             </button>
             
-            {["/", "/resume", "/business", "/contacts", "/masterclass",].map(
+            {["/", "/resume", "/business", "/masterclass", "/contacts",].map(
               (path, index) => (
                 <li
                   key={index}
