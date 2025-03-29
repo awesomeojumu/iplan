@@ -41,7 +41,7 @@ const Navbar = () => {
         <Link href={"/"}>
           <h2 className="text-3xl cursor-pointer">
             <b>
-              <span className="text-blue-900">iP</span>
+              <span className="text-blue-900">P</span>
               lan
               <span className="text-red-900">exi.</span></b>
           </h2>
