@@ -31,7 +31,7 @@ export default function ContactsPage() {
                 </p>
 
               </div>
-              <div class="bg-white p-6 rounded-lg shadow-md">
+              {/* <div class="bg-white p-6 rounded-lg shadow-md">
                 <h2 class="text-2xl font-semibold mb-4">Send Us a Message</h2>
                 <form action="#" method="POST">
                   <div class="mb-4">
@@ -68,7 +68,7 @@ export default function ContactsPage() {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
