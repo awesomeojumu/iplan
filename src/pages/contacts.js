@@ -8,6 +8,7 @@ export default function ContactsPage() {
   return (
     <div>
       <Navbar />
+      <div className="h-16"></div>
       <div className="flex flex-col gap-16 md:gap-32">
         <section class="bg-gray-100 text-gray-900">
           <div class="container mx-auto py-12 px-6">
