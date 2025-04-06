@@ -48,7 +48,7 @@ export default function Home() {
             <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
               <div className="relative w-full flex-1">
                 <Image
-                  src={"/home-23.png"}
+                  src={"/home-23.jpg"}
                   width={300}
                   height={300}
                   alt="banner"
@@ -100,9 +100,9 @@ export default function Home() {
             </div>
 
             <div className="flex-1 relative w-full">
-              <div className="md:before:w-full md:before:h-full md:before:absolute md:before:-bottom-24 lg:before:-bottom-20 xl:before:-right-5 lg:before:-right-12 md:before:-right-16 md:before:bg-right-bottom md:before:bg-contain md:before:bg-no-repeat before:-z-50 before:bg-none md:before:bg-[url('/videobg.png')]">
+              <div className="md:before:w-full md:before:h-full md:before:absolute md:before:-bottom-24 lg:before:-bottom-20 xl:before:-right-5 lg:before:-right-12 md:before:-right-16 md:before:bg-right-bottom md:before:bg-contain md:before:bg-no-repeat before:-z-50 before:bg-none md:before:bg-[url('/videobg.jpg')]">
                 <Image
-                  src={"/home-bd.png"}
+                  src={"/home-bd.jpg"}
                   width={300}
                   height={300}
                   alt="core features"
@@ -137,9 +137,9 @@ export default function Home() {
             </div>
 
             <div className="flex-1 relative w-full">
-              <div className="md:before:w-full md:before:h-full md:before:absolute md:before:-bottom-24 lg:before:-bottom-20 xl:before:-right-5 lg:before:-right-12 md:before:-right-16 md:before:bg-right-bottom md:before:bg-contain md:before:bg-no-repeat before:-z-50 before:bg-none md:before:bg-[url('/videobg.png')]">
+              <div className="md:before:w-full md:before:h-full md:before:absolute md:before:-bottom-24 lg:before:-bottom-20 xl:before:-right-5 lg:before:-right-12 md:before:-right-16 md:before:bg-right-bottom md:before:bg-contain md:before:bg-no-repeat before:-z-50 before:bg-none md:before:bg-[url('/videobg.jpg')]">
                 <Image
-                  src={"/home-cv.png"}
+                  src={"/home-cv.jpg"}
                   width={400}
                   height={400}
                   alt="Smiling Lady"
