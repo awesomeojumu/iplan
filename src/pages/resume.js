@@ -81,7 +81,7 @@ export default function ResumePage() {
             </section>
 
           <section className="container mx-auto px-4 md:px-16 flex flex-col lg:flex-row items-center lg:gap-20 gap-14">
-              <iframe src="https://paystack.shop/iplancv" width="100%" height="600px" frameborder="0" scrolling="auto"></iframe>
+              <iframe src="https://paystack.shop/iplan-resumecvslinkedinandcoverletters" width="100%" height="600px" frameborder="0" scrolling="auto"></iframe>
           </section>
           <Footer />
       </div>
